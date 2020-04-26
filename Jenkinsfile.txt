@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('AutoBuild') {
+        stage('Auto Build') {
             steps {
                 echo 'Building..'
 		sh mvn package
